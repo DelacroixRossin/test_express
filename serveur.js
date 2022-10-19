@@ -3,17 +3,17 @@ const app = express();
 const port = 3001;
 
 app.get("/",  (req, res) =>{
-  res.sendFile(__dirname + "/View/home.html");
+  res.sendFile(__dirname + "/Views/home.html");
 });
 app.get("/about",  (req, res) =>{
-  res.sendFile(__dirname + "/View/about.html");
+  res.sendFile(__dirname + "/Views/about.html");
 });
 app.get("/contact",  (req, res) =>{
-  res.sendFile(__dirname + "/View/contact.html");
+  res.sendFile(__dirname + "/Views/contact.html");
 });
 
 app.get("/service",  (req, res) =>{
-  res.sendFile(__dirname + "/View/service.html");
+  res.sendFile(__dirname + "/Views/service.html");
 });
 
 
